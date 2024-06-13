@@ -1,0 +1,15 @@
+#include "/home/stack/Personal/.git/Xresources-themes/base16-phd-256.Xresources"
+URxvt.scrollBar: false
+URxvt.font: 	      xft:3270 Nerd Font:size=14:style=Regular
+URxvt.boldFont:       xft:3270 Nerd Font:size=14:style=Medium
+URxvt.italicFont:     xft:3270 Nerd Font:size=14:style=Italic
+URxvt.boldItalicFont: xft:3270 Nerd Font:size=14:style=Medium Italic
+URxvt.saveLines: 5000
+
+!Perl Implementation
+
+URxvt.perl-ext-common: default,selection-to-clipboard,selection-to-paste,matcher,keyboard-select
+URxvt.keysym.Control-Shift-C: perl:selection-to-clipboard
+URxvt.keysym.Control-Shift-V: perl:selection-to-paste:paste
+URxvt.underlineURLs: true
+URxvt.url-launcher: /usr/bin/firefox
